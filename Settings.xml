@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- AIML Settings -->
+	<aiml>
+		<!-- Path to AIML files -->
+		<aimlifiles path="./aiml" />
+
+		<!-- Character encoding for AIML files -->
+		<encoding>UTF-8</encoding>
+
+		<!-- Start-up file name -->
+		<startup>_startup.aiml</startup>
+
+		<!-- Default AIML file name -->
+		<default-aiml>_default.aiml</default-aiml>
+
+		<!-- Default predicate values -->
+		<default-predicates>
+			<predicate name="name" value="unknown" />
+			<predicate name="age" value="unknown" />
+			<predicate name="gender" value="unknown" />
+			<predicate name="topic" value="unknown" />
+		</default-predicates>
+	</aiml>
+
+	<!-- Bot Settings -->
+	<bot>
+		<!-- Bot's name -->
+		<name>MediaBot</name>
+
+		<!-- Language -->
+		<language>ru-RU</language>
+
+		<!-- Master bot name (for inter-bot communication) -->
+		<master>MediaControlBot</master>
+
+		<!-- Bot's gender -->
+		<gender>Male</gender>
+
+		<!-- Bot's version -->
+		<version>1.0</version>
+	</bot>
+</root>
